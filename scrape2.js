@@ -6,6 +6,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 
 console.log("hello");
+console.log("world");
 
 request('https://www.seek.com.au/job/39372875?type=standard&searchrequesttoken=79806ee0-c3ab-457b-96e0-f3a5ab79ec49', (error, response, html) => {
   if (!error && response.statusCode == 200) {
